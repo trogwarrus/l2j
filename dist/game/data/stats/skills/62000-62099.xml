@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="62001" toLevel="1" name="Hurricane Destruction">
+		<!-- Inflicts Aerial Yoke for 3 sec. -->
+		<icon>icon.skill1239</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>5000</reuseDelay>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="62002" toLevel="1" name="Earth Spirit King Rufes">
+		<!-- Sealed Earth Spirit King. His threatening appearance befits the immense power he wields. Even if you manage to hide from his strikes, the Sandblast he summons will surely get you. -->
+		<icon>icon.skillboss</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62003" toLevel="1" name="Fire Spirit Queen Callor">
+		<!-- Sealed Fire Spirit Queen. Callor's fiery temper erupts in blistering flames that can deal deadly damage. If you value your life, put out this fire as soon as possible. -->
+		<icon>icon.skillboss</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62004" toLevel="1" name="Water Spirit Queen Marea">
+		<!-- Sealed Water Spirit Queen. Marea is not as ruthless as the other Spirit Kings, but, just like the others, she didn't take kindly to being sealed. In battle she often summons Aqua Slimes. -->
+		<icon>icon.skillboss</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62005" toLevel="1" name="Wind Spirit King Vertex">
+		<!-- Sealed Wind Spirit King. Cruel and arrogant, in combat Vertex uses the devastating power of wind and summons his copies - Vertex's Keepers. -->
+		<icon>icon.skillboss</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62006" toLevel="1" name="Vertex's Keeper">
+		<!-- Keeper of Vertex, the Wind Spirit King. If you don't destroy Vertex's Keepers in time, Vertex will regenerate all of the health he lost. When Keeper dies or disappears, Vertex's Storm is summoned in their place. -->
+		<icon>icon.skillboss</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62007" toLevel="1" name="Aqua Slime">
+		<!-- Servant of Water Spirit Queen Marea. If you don't destroy Aqua Slimes in time, they will sacrifice themselves and restore Marea's health. -->
+		<icon>icon.skillboss</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="62008" toLevel="1" name="Perfect Flame Shock">
+		<!-- Stuns and immobilizes for 10 sec. Received damage +50%. Cannot be removed. -->
+		<icon>icon.skill10262</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62009" toLevel="1" name="Perfect Sand Silence">
+		<!-- Due to severe shock, you cannot use skills or attacks. Cannot be removed. -->
+		<icon>icon.skill0412</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62010" toLevel="20" name="Rose Acquisition - Lv. 1">
+		<!-- The Tree of Genesis has sprouted roses! Number of successful activations: 1. Due to the magic power of the 20th Anniversary Rose, for 24 h. acquired XP/ SP +1%. Note!. This buff will be removed upon received a Rose Heart from NPC Annie. -->
+		<icon>icon.s_ev_20th_rose_win</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62011" toLevel="5" name="Rose Acquisition - Lottery">
+		<!-- Rose Acquisition - Lottery Lv. 1-5 -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="62012" toLevel="2" name="Rose Acquisition - Failure">
+		<!-- Failed to acquire a Rose. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62013" toLevel="25" name="Lineage 2 Coming of Age Day - Lv. 1">
+		<!-- We congratulate you on the 20th anniversary of Lineage II and wish you health and happiness!. Grants 20th Anniversary Coin (20 pcs.) or 20th Anniversary Rose (2 pcs.) in 1 h. Maximum level: 24. Note!. You cannot get a gift if you are dead or if there is not enough free slots in your inventory. -->
+		<icon>icon.ev_20th_logo</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<castRange>900</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62014" toLevel="1" name="Common Reward">
+		<!-- Common Reward -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="62015" toLevel="1" name="Great Reward">
+		<!-- Great Reward -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>5000</reuseDelay>
+	</skill>
+	<skill id="62016" toLevel="1" name="Incredible Lucky Hour">
+		<!-- After Jackpot's Heart Explosion, you start to feel a little funny. For 10 sec., increases the size of your head and body and makes you dance. -->
+		<icon>icon.skill5008_psycho</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62017" toLevel="1" name="Hurricane Invincibility">
+		<!-- Wind Spirit King Vertex is invincible. To remove invincibility, kill all of Vertex's Keepers. -->
+		<icon>icon.skill32632</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<castRange>2000</castRange>
+		<coolTime>500</coolTime>
+		<effectPoint>100</effectPoint>
+	</skill>
+	<skill id="62018" toLevel="2" name="Fixed Speed">
+		<!-- You can't run here. The movement speed is fixed at walking pace. -->
+		<icon>icon.skill19222</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="62019" toLevel="1" name="Earth Spirit's Sting">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>2000</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="62020" toLevel="1" name="Large Firecracker 1">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="62021" toLevel="1" name="Large Firecracker 2">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="62022" toLevel="1" name="Large Firecracker 3">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="62023" toLevel="1" name="Large Firecracker 4">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="62024" toLevel="1" name="Red Firecracker">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="62025" toLevel="1" name="Gold Firecracker">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="62026" toLevel="1" name="Blue Firecracker">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="62027" toLevel="1" name="Pink Firecracker">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="62028" toLevel="1" name="White Firecracker">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="62029" toLevel="1" name="Unable to Target">
+		<!-- Tree of Genesis has bloomed, so it cannot be targeted. -->
+		<icon>icon.notargetting</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="62030" toLevel="4" name="Rose Payment">
+		<!-- Rose Payment -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62031" toLevel="2" name="Coin Payment">
+		<!-- Coin Payment -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62032" toLevel="1" name="Huny's Gift">
+		<icon>icon.skill0436</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62033" toLevel="25" name="Huny's Tender Touch - Lv. 1">
+		<!-- Huny's care makes you feel warmth within your soul. You can get Huny's Warm Love (1 pc.) after 1 hour. Max level: 24. Note!. Cannot be obtained if the character is dead or has no free slots in the inventory. -->
+		<icon>icon.skill0436</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<castRange>900</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="62034" toLevel="6" name="Snowmen Defense Medal of Honor - F">
+		<!-- A reward given to warriors who have participated in the Snowmen Defense. Happy New Year!. For 24 h., acquired XP/ SP +1%. -->
+		<icon>
+			<value level="1">icon.rim_a_kamaroka_f</value>
+			<value level="2">icon.rim_a_kamaroka_d</value>
+			<value level="3">icon.rim_a_kamaroka_c</value>
+			<value level="4">icon.rim_f_kamaroka_b</value>
+			<value level="5">icon.rim_f_kamaroka_a</value>
+			<value level="6">icon.rim_f_kamaroka_s</value>
+		</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<castRange>900</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+</list>

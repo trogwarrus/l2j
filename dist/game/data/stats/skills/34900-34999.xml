@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/skills.xsd">
+	<skill id="34900" toLevel="3" name="Radiant Nymph Lv. 1 - Bond Lv. 1">
+		<!-- CON/ MEN +4 -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34901" toLevel="3" name="Radiant Oculus Lv. 1 - Bond Lv. 1">
+		<!-- CON/ MEN +4 -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34902" toLevel="3" name="Radiant Fofo Lv. 1 - Bond Lv. 1">
+		<!-- CON/ MEN +4 -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34903" toLevel="3" name="Radiant Divine Angel Lv. 1 - Bond Lv. 1">
+		<!-- CON/ MEN +4 -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34904" toLevel="3" name="Radiant Divine Devilet Lv. 1 - Bond Lv. 1">
+		<!-- CON/ MEN +4 -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34905" toLevel="3" name="Radiant Divine Pegasus Lv. 1 - Bond Lv. 1">
+		<!-- CON/ MEN +4 -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34906" toLevel="3" name="Radiant Chuchu Lv. 2 - Bond Lv. 1">
+		<!-- Max HP/ MP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34907" toLevel="3" name="Radiant Tana Lv. 2 - Bond Lv. 1">
+		<!-- Max HP/ MP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34908" toLevel="3" name="Radiant Pallo Lv. 2 - Bond Lv. 1">
+		<!-- Max HP/ MP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34909" toLevel="3" name="Radiant Ayri Lv. 2 - Bond Lv. 1">
+		<!-- Max HP/ MP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34910" toLevel="3" name="Radiant Churing Lv. 2 - Bond Lv. 1">
+		<!-- Max HP/ MP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34911" toLevel="3" name="Radiant Cow Lv. 2 - Bond Lv. 1">
+		<!-- Max HP/ MP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34912" toLevel="3" name="Radiant Chorong Lv. 2 - Bond Lv. 1">
+		<!-- Max HP/ MP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34913" toLevel="3" name="Radiant Nymph Lv. 2 - Bond Lv. 1">
+		<!-- Max HP/ MP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34914" toLevel="3" name="Radiant Oculus Lv. 2 - Bond Lv. 1">
+		<!-- Max HP/ MP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34915" toLevel="3" name="Radiant Fofo Lv. 2 - Bond Lv. 1">
+		<!-- Max HP/ MP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34916" toLevel="3" name="Radiant Divine Angel Lv. 2 - Bond Lv. 1">
+		<!-- Max HP/ MP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34917" toLevel="3" name="Radiant Divine Devilet Lv. 2 - Bond Lv. 1">
+		<!-- Max HP/ MP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34918" toLevel="3" name="Radiant Divine Pegasus Lv. 2 - Bond Lv. 1">
+		<!-- Max HP/ MP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34919" toLevel="3" name="Radiant Chuchu Lv. 3 - Bond Lv. 1">
+		<!-- Vitality bonus +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34920" toLevel="3" name="Radiant Tana Lv. 3 - Bond Lv. 1">
+		<!-- Attribute Attack +50 -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34921" toLevel="3" name="Radiant Pallo Lv. 3 - Bond Lv. 1">
+		<!-- Attribute Resistance +50 -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34922" toLevel="3" name="Radiant Ayri Lv. 3 - Bond Lv. 1">
+		<!-- Attribute Attack +50 -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34923" toLevel="3" name="Radiant Churing Lv. 3 - Bond Lv. 1">
+		<!-- Attribute Attack +50 -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34924" toLevel="3" name="Radiant Cow Lv. 3 - Bond Lv. 1">
+		<!-- Attribute Attack/ Resistance +35 -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34925" toLevel="3" name="Radiant Chorong Lv. 3 - Bond Lv. 1">
+		<!-- Vitality bonus +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34926" toLevel="3" name="Radiant Nymph Lv. 3 - Bond Lv. 1">
+		<!-- Attribute Attack/ Resistance +35 -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34927" toLevel="3" name="Radiant Oculus Lv. 3 - Bond Lv. 1">
+		<!-- Attribute Attack/ Resistance +35 -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34928" toLevel="3" name="Radiant Fofo Lv. 3 - Bond Lv. 1">
+		<!-- LUC +5 -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34929" toLevel="3" name="Radiant Divine Angel Lv. 3 - Bond Lv. 1">
+		<!-- Vitality bonus +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34930" toLevel="3" name="Radiant Divine Devilet Lv. 3 - Bond Lv. 1">
+		<!-- P./ M. Def. +7% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34931" toLevel="3" name="Radiant Divine Pegasus Lv. 3 - Bond Lv. 1">
+		<!-- Acquired XP/ SP +5%, adena drop rate +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34932" toLevel="3" name="Radiant Chuchu Lv. 4 - Bond Lv. 1">
+		<!-- Acquired XP/ SP +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34933" toLevel="3" name="Radiant Tana Lv. 4 - Bond Lv. 1">
+		<!-- P. Atk. +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34934" toLevel="3" name="Radiant Pallo Lv. 4 - Bond Lv. 1">
+		<!-- P./ M. Def. +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34935" toLevel="3" name="Radiant Ayri Lv. 4 - Bond Lv. 1">
+		<!-- P./ M. Skill Power +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34936" toLevel="3" name="Radiant Churing Lv. 4 - Bond Lv. 1">
+		<!-- M. Atk. +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34937" toLevel="3" name="Radiant Cow Lv. 4 - Bond Lv. 1">
+		<!-- PvP damage +7% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34938" toLevel="3" name="Radiant Chorong Lv. 4 - Bond Lv. 1">
+		<!-- Adena drop rate with Vitality +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34939" toLevel="3" name="Radiant Nymph Lv. 4 - Bond Lv. 1">
+		<!-- P./ M. Def. +7% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34940" toLevel="3" name="Radiant Oculus Lv. 4 - Bond Lv. 1">
+		<!-- Atk. Spd./ Casting Spd. +7% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34941" toLevel="3" name="Radiant Fofo Lv. 4 - Bond Lv. 1">
+		<!-- Base armor enchant success rate +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34942" toLevel="3" name="Radiant Divine Angel Lv. 4 - Bond Lv. 1">
+		<!-- Adena drop rate with Vitality +7% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34943" toLevel="3" name="Radiant Divine Devilet Lv. 4 - Bond Lv. 1">
+		<!-- P./ M. Atk. +7% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34944" toLevel="3" name="Radiant Divine Pegasus Lv. 4 - Bond Lv. 1">
+		<!-- P./ M. Def. +7% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34945" toLevel="3" name="Radiant Chuchu Lv. 5 - Bond Lv. 1">
+		<!-- Adena drop rate with Vitality +7% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34946" toLevel="3" name="Radiant Tana Lv. 5 - Bond Lv. 1">
+		<!-- Critical Damage for basic attacks +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34947" toLevel="3" name="Radiant Pallo Lv. 5 - Bond Lv. 1">
+		<!-- All received Critical Damage -5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34948" toLevel="3" name="Radiant Ayri Lv. 5 - Bond Lv. 1">
+		<!-- P./ M. Skill Critical Rate +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34949" toLevel="3" name="Radiant Churing Lv. 5 - Bond Lv. 1">
+		<!-- M. Skill Critical Damage +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34950" toLevel="3" name="Radiant Cow Lv. 5 - Bond Lv. 1">
+		<!-- Received PvP damage -10% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34951" toLevel="3" name="Radiant Chorong Lv. 5 - Bond Lv. 1">
+		<!-- Adena drop rate +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34952" toLevel="3" name="Radiant Nymph Lv. 5 - Bond Lv. 1">
+		<!-- Power of basic attacks and P./ M. skills +7% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34953" toLevel="3" name="Radiant Oculus Lv. 5 - Bond Lv. 1">
+		<!-- Speed +50 -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34954" toLevel="3" name="Radiant Fofo Lv. 5 - Bond Lv. 1">
+		<!-- Base weapon enchant success rate +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34955" toLevel="3" name="Radiant Divine Angel Lv. 5 - Bond Lv. 1">
+		<!-- P./ M. Skill Critical Rate +1% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34956" toLevel="3" name="Radiant Divine Devilet Lv. 5 - Bond Lv. 1">
+		<!-- All Critical Damage +7% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34957" toLevel="3" name="Radiant Divine Pegasus Lv. 5 - Bond Lv. 1">
+		<!-- Skill Power increase +5% -->
+		<icon>icon.skill0000</icon>
+		<operateType>A2</operateType>
+	</skill>
+	<skill id="34958" toLevel="3" name="Power of Colorful Sky Lantern Lv. 1">
+		<!-- Make a wish and launch your Sky Lantern into the sky, toward the Full Moon... For 24 h., Power of basic attacks and P./ M. skills +10%, P./ M. Def. +10%. Note!. The effect remains after death, after switching to a dual class or entering instance zones. Removed when entering the Olympiad or the Ceremony of Chaos. -->
+		<icon>icon.ev_2022_chuseok_buff</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<castRange>900</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="34959" toLevel="1" name="Protection of Light - Shine Maker">
+		<!-- Power of Light helps Shine Maker to oppose the darkness. In Rim Kamaloka M. Skill Power +10%. -->
+		<icon>icon.s_buff_boost_archangel2</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<castRange>900</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="34960" toLevel="6" name="Rim Kamaloka Medal of Honor - Hard Lv. 105 F">
+		<!-- A reward given to warriors who have defeated the dark energy in the realm of subconsciousness. For 24 h., acquired XP/ SP +3%. -->
+		<icon>
+			<value level="1">icon.rim_a_kamaroka_f</value>
+			<value level="2">icon.rim_a_kamaroka_d</value>
+			<value level="3">icon.rim_a_kamaroka_c</value>
+			<value level="4">icon.rim_a_kamaroka_b</value>
+			<value level="5">icon.rim_a_kamaroka_a</value>
+			<value level="6">icon.rim_a_kamaroka_s</value>
+		</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<castRange>900</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="34961" toLevel="6" name="Rim Kamaloka Medal of Honor - Hard Lv. 110 F">
+		<!-- A reward given to warriors who have defeated the dark energy in the realm of subconsciousness. For 24 h., acquired XP/ SP +3%. -->
+		<icon>
+			<value level="1">icon.rim_a_kamaroka_f</value>
+			<value level="2">icon.rim_a_kamaroka_d</value>
+			<value level="3">icon.rim_a_kamaroka_c</value>
+			<value level="4">icon.rim_b_kamaroka_b</value>
+			<value level="5">icon.rim_b_kamaroka_a</value>
+			<value level="6">icon.rim_b_kamaroka_s</value>
+		</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<castRange>900</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="34962" toLevel="6" name="Rim Kamaloka Medal of Honor - Hard Lv. 115 F">
+		<!-- A reward given to warriors who have defeated the dark energy in the realm of subconsciousness. For 24 h., acquired XP/ SP +3%. -->
+		<icon>
+			<value level="1">icon.rim_a_kamaroka_f</value>
+			<value level="2">icon.rim_a_kamaroka_d</value>
+			<value level="3">icon.rim_a_kamaroka_c</value>
+			<value level="4">icon.rim_c_kamaroka_b</value>
+			<value level="5">icon.rim_c_kamaroka_a</value>
+			<value level="6">icon.rim_c_kamaroka_s</value>
+		</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<castRange>900</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="34963" toLevel="6" name="Rim Kamaloka Medal of Honor - Hard Lv. 120 F">
+		<!-- A reward given to warriors who have defeated the dark energy in the realm of subconsciousness. For 24 h., acquired XP/ SP +3%. -->
+		<icon>
+			<value level="1">icon.rim_a_kamaroka_f</value>
+			<value level="2">icon.rim_a_kamaroka_d</value>
+			<value level="3">icon.rim_a_kamaroka_c</value>
+			<value level="4">icon.rim_d_kamaroka_b</value>
+			<value level="5">icon.rim_d_kamaroka_a</value>
+			<value level="6">icon.rim_d_kamaroka_s</value>
+		</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<castRange>900</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="34964" toLevel="6" name="Rim Kamaloka Medal of Honor - Hard Lv. 125 F">
+		<!-- A reward given to warriors who have defeated the dark energy in the realm of subconsciousness. For 24 h., acquired XP/ SP +3%. -->
+		<icon>
+			<value level="1">icon.rim_a_kamaroka_f</value>
+			<value level="2">icon.rim_a_kamaroka_d</value>
+			<value level="3">icon.rim_a_kamaroka_c</value>
+			<value level="4">icon.rim_e_kamaroka_b</value>
+			<value level="5">icon.rim_e_kamaroka_a</value>
+			<value level="6">icon.rim_e_kamaroka_s</value>
+		</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<castRange>900</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="34965" toLevel="6" name="Rim Kamaloka Medal of Honor - Hard Lv. 130 F">
+		<!-- A reward given to warriors who have defeated the dark energy in the realm of subconsciousness. For 24 h., acquired XP/ SP +3%. -->
+		<icon>
+			<value level="1">icon.rim_a_kamaroka_f</value>
+			<value level="2">icon.rim_a_kamaroka_d</value>
+			<value level="3">icon.rim_a_kamaroka_c</value>
+			<value level="4">icon.rim_f_kamaroka_b</value>
+			<value level="5">icon.rim_f_kamaroka_a</value>
+			<value level="6">icon.rim_f_kamaroka_s</value>
+		</icon>
+		<operateType>A1</operateType>
+		<isMagic>4</isMagic>
+		<castRange>900</castRange>
+		<effectPoint>1</effectPoint>
+	</skill>
+	<skill id="34966" toLevel="1" name="Sleep State">
+		<icon>icon.skill4046</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+	</skill>
+	<skill id="34967" toLevel="1" name="Ravenous Attack">
+		<!-- Heavy attack on a single target. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34968" toLevel="1" name="Ravenous Strike">
+		<!-- Heavy attack on a single target. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34969" toLevel="1" name="Ravenous Slash">
+		<!-- An AoE attack. -->
+		<icon>icon.skill16204</icon>
+		<operateType>A1</operateType>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34970" toLevel="1" name="Powerful Shot">
+		<!-- Heavy attack on a single target. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>900</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34971" toLevel="1" name="Fire Shot">
+		<!-- Basic attack on a single target. -->
+		<icon>icon.skill1230</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<castRange>900</castRange>
+		<hitTime>1000</hitTime>
+		<effectPoint>-1</effectPoint>
+	</skill>
+	<skill id="34972" toLevel="1" name="Fire Spike">
+		<!-- Heavy attack on a single target. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<castRange>900</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-115</effectPoint>
+	</skill>
+	<skill id="34973" toLevel="1" name="Fatal Strike">
+		<!-- Heavy attack on a single target. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>800</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34974" toLevel="1" name="Death Worm Strike">
+		<!-- Heavy attack on a single target. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34975" toLevel="1" name="Vile Strike">
+		<!-- Heavy attack on a single target. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34976" toLevel="1" name="Devastating Strike">
+		<!-- Heavy attack on a single target. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<coolTime>800</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34977" toLevel="1" name="Blade of Sin">
+		<!-- Heavy attack on a single target. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<castRange>40</castRange>
+		<hitTime>1000</hitTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34978" toLevel="1" name="Water Dragon Rage">
+		<!-- An AoE attack. -->
+		<icon>icon.skill33916</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<hitTime>1500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34979" toLevel="1" name="Weeping Spike">
+		<!-- Heavy attack on a single target. -->
+		<icon>icon.skill1417</icon>
+		<operateType>A1</operateType>
+		<isMagic>1</isMagic> <!-- Magic Skill -->
+		<castRange>900</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="34980" toLevel="1" name="Radiant Water Blessing">
+		<!-- Presentation Skill. -->
+		<icon>icon.homun_skill_icon</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="34981" toLevel="1" name="Radiant Earth Blessing">
+		<!-- Presentation Skill. -->
+		<icon>icon.homun_skill_icon</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="34982" toLevel="1" name="Radiant Divine Blessing">
+		<!-- Presentation Skill. -->
+		<icon>icon.homun_skill_icon</icon>
+		<operateType>A1</operateType>
+	</skill>
+	<skill id="34983" toLevel="1" name="Fire Breath">
+		<!-- Ranged AoE attack. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>1100</castRange>
+		<hitTime>3000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34984" toLevel="1" name="Fire Rage">
+		<!-- Melee physical attack (close). -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34985" toLevel="1" name="Tears of Fire">
+		<!-- Melee physical attack (close). -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<isDebuff>true</isDebuff>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34986" toLevel="5" name="Fire Vulnerability - Lv. 1">
+		<!-- At Lv. 5, stuns you for 10 sec when hit by Tears of Fire. -->
+		<icon>icon.skill1171</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+	</skill>
+	<skill id="34987" toLevel="1" name="Water Wave">
+		<!-- Basic attack -->
+		<icon>icon.skill0325</icon>
+		<operateType>A1</operateType>
+		<isMagic>7</isMagic>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<reuseDelay>1000</reuseDelay>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="34988" toLevel="1" name="Aqua Tornado">
+		<!-- Inflicts Aerial Yoke for 10 sec. -->
+		<icon>icon.skill1175</icon>
+		<operateType>A1</operateType>
+		<isMagic>7</isMagic>
+		<isDebuff>true</isDebuff>
+		<hitTime>3500</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="34989" toLevel="1" name="Aqua Summon">
+		<!-- Presentation Skill. -->
+		<icon>icon.skill10516</icon>
+		<operateType>A1</operateType>
+		<isMagic>7</isMagic>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="34990" toLevel="1" name="Aqua Self-Destruction">
+		<!-- Water Spirit Recovery -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>7</isMagic>
+		<castRange>40</castRange>
+		<hitTime>500</hitTime>
+		<coolTime>500</coolTime>
+	</skill>
+	<skill id="34991" toLevel="1" name="Stone Crusher">
+		<icon>icon.skill0003</icon>
+		<operateType>A1</operateType>
+		<hitTime>7000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1</effectPoint>
+	</skill>
+	<skill id="34992" toLevel="1" name="Stone Slide">
+		<icon>icon.skill3080</icon>
+		<operateType>A1</operateType>
+		<hitTime>7000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1</effectPoint>
+	</skill>
+	<skill id="34993" toLevel="1" name="Earth Fury">
+		<icon>icon.skill0325</icon>
+		<operateType>A1</operateType>
+		<hitTime>7000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1</effectPoint>
+	</skill>
+	<skill id="34994" toLevel="1" name="Sandblast">
+		<!-- A sand storm limits visibility. Attacks and skills cannot be used. -->
+		<icon>icon.skill10540</icon>
+		<operateType>A1</operateType>
+		<isDebuff>true</isDebuff>
+		<effectPoint>-1</effectPoint>
+	</skill>
+	<skill id="34995" toLevel="3" name="Stone Attack Speed">
+		<!-- Earth Spirit King is furious! His Atk. Spd. and Casting Spd. are increased. -->
+		<icon>icon.skill0168</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>1000</hitTime>
+		<effectPoint>689</effectPoint>
+	</skill>
+	<skill id="34996" toLevel="1" name="Hurricane Cutter">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="34997" toLevel="1" name="Hurricane Wave">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-1000</effectPoint>
+	</skill>
+	<skill id="34998" toLevel="1" name="Hurricane Bolt">
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<isMagic>6</isMagic>
+		<castRange>80</castRange>
+		<hitTime>2000</hitTime>
+		<coolTime>500</coolTime>
+		<effectPoint>-100</effectPoint>
+	</skill>
+	<skill id="34999" toLevel="1" name="Hurricane Summon">
+		<!-- Presentation Skill. -->
+		<icon>icon.skill0000</icon>
+		<operateType>A1</operateType>
+		<hitTime>1000</hitTime>
+		<coolTime>500</coolTime>
+	</skill>
+</list>
