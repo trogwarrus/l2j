@@ -85,7 +85,7 @@
 			<npc id="30895" x="111480" y="219992" z="-3679" heading="64496" respawnTime="60sec" /> <!-- Kluck - Warehouse Keeper -->
 			<!-- <npc id="32878" x="111544" y="220072" z="-3678" heading="64496" respawnTime="60sec" /> --> <!-- Sparky -->
 			<npc id="30981" x="111784" y="218616" z="-3550" heading="16383" respawnTime="60sec" /> <!-- Dark Judge -->
-			<npc id="34515" x="-122511" y="-116548" z="-5734" heading="23223" respawnTime="60sec" /> <!-- Eva's Avatar -->
+			<!-- <npc id="34515" x="-122511" y="-116548" z="-5734" heading="23223" respawnTime="60sec" /> Eva's Avatar -->
 		</group>
 	</spawn>
 </list>
