@@ -1,0 +1,45 @@
+<html noscrollbar>
+  <body>
+    <table width=700>
+      <tr>
+        <td height=10></td>
+      </tr>
+    </table>
+    <table width=20>
+      <tr>
+        <td>%navigation%</td>
+        <td>
+          <center>
+            <table border=0 cellpadding=0 cellspacing=0 width=555 height=455 background="L2UI_CT1.Windows_DF_TooltipBG">
+              <tr>
+                <td align="center" height=20>
+                  <br/>
+                  <font name="hs12" color="CDB67F">Требования для перерождения</font>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" height=20><font name="hs12" color="LEVEL">{{REBIRTH_COMPLETED_MESSAGE}}</font></td>
+              </tr>
+              <tr>
+                <td align="center" height=250>
+                  <center>
+                    <table border=0 cellspacing=0 cellpadding=5>
+                      <tr><td>Необходимый уровень:</td><td><font name="hs12" color="LEVEL">{{REQUIRED_LEVEL}}</font></td></tr>
+                      <tr><td colspan=2>Необходимые предметы:</td></tr>
+                      {{REQUIRED_ITEMS}}
+                    </table>
+                  </center>
+                </td>
+              </tr>
+              <tr>
+                <td align="center" height=20>
+                  <button value="Переродиться" action="bypass _bbsrebirth_confirm" width=200 height=40 back="L2UI_ct1.button_df" fore="L2UI_ct1.button_df"></button>
+                </td>
+              </tr>
+            </table>
+          </center>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

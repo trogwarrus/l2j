@@ -3,7 +3,7 @@
 	<spawn name="ProvisionalClanHalls">
 		<group>
 			<npc id="33360" x="-122368" y="-122595" z="-5845" heading="16383" respawnTime="60sec" /> <!-- Maid - Provisional Clan Hall Manager -->
-			<npc id="33360" x="-122668" y="-116440" z="-5735" heading="60699" respawnTime="60sec" /> <!-- Maid - Provisional Clan Hall Manager -->
+			<!--<npc id="33360" x="-122668" y="-116440" z="-5735" heading="60699" respawnTime="60sec" />--> <!-- Maid - Provisional Clan Hall Manager -->
 			<npc id="33360" x="-121444" y="-111321" z="-5981" heading="32767" respawnTime="60sec" /> <!-- Maid - Provisional Clan Hall Manager -->
 			<npc id="33360" x="-117093" y="-122599" z="-5845" heading="16383" respawnTime="60sec" /> <!-- Maid - Provisional Clan Hall Manager -->
 			<npc id="33360" x="-117517" y="-116408" z="-5735" heading="60699" respawnTime="60sec" /> <!-- Maid - Provisional Clan Hall Manager -->
