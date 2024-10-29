@@ -147,6 +147,7 @@ public class RebirthSystem
         }
         if (reward.getItemId() != null && reward.getItemCount() != null)
         {
+          player.getInventory().addItem("Rebirth Reward", reward.getItemId(), reward.getItemCount(), player, null);
           player.sendMessage("Вы получили " + reward.getItemCount() + " шт. предмета ID " + reward.getItemId() + " за перерождение.");
         }
       }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <event name="Elpies" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../xsd/event.xsd">
-	<!-- 
+	<!--
 		The pattern attribute specifies the schedule time of the event.
 		- Minutes (0-59)
 		- Hours (0-23)
@@ -12,4 +12,8 @@
 	-->
 	<!-- Run at 20:00 (8:00 PM) every day. -->
 	<!-- <schedule pattern="0 20 * * *" /> -->
+	<schedule pattern="0 0 * * *" />
+	<schedule pattern="0 6 * * *" />
+	<schedule pattern="0 12 * * *" />
+	<schedule pattern="0 18 * * *" />
 </event>
