@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="SyncSpawns" default="sync" basedir=".">
+
+    <!-- Указываем исходные и целевые директории -->
+    <property name="server.base.dir" location="../server/game/data"/>
+    <property name="source.base.dir" location="dist/game/data"/>
+    <property name="server.spawns.dir" location="${server.base.dir}/spawns/Others"/>
+    <property name="source.spawns.dir" location="${source.base.dir}/spawns/Others"/>
+
+    <!-- Копирование всех файлов из source/dist/game в server/game -->
+    <target name="copyAll">
+        <echo message="Копируем все файлы из ${source.base.dir} в ${server.base.dir} с полной заменой..." />
+        <copy todir="${server.base.dir}" overwrite="true">
+            <fileset dir="${source.base.dir}" includes="**/*" />
+        </copy>
+        <echo message="Копирование всех файлов завершено." />
+    </target>
+
+    <!-- Главная цель -->
+    <target name="sync" depends="copyAll">
+        <echo message="Полная синхронизация завершена." />
+    </target>
+
+</project>

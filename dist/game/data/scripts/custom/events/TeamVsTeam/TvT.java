@@ -300,7 +300,7 @@ public class TvT extends Event
         // Check if there are enough players to start the event.
         if (PLAYER_LIST.size() < MINIMUM_PARTICIPANT_COUNT)
         {
-          Broadcast.toAllOnlinePlayers("TvT Event: Event was canceled, not enough participants.");
+          Broadcast.toAllOnlinePlayers("TvT: Ивент отменен, не хватило участников");
           for (Player participant : PLAYER_LIST)
           {
             removeListeners(participant);
@@ -431,7 +431,7 @@ public class TvT extends Event
         startQuestTimer("3", (WAIT_TIME * 60000) - 3000, null, null);
         startQuestTimer("2", (WAIT_TIME * 60000) - 2000, null, null);
         startQuestTimer("1", (WAIT_TIME * 60000) - 1000, null, null);
-        startQuestTimer("StartFight", WAIT_TIME * 60000, null, null);
+        startQuestTimer("Бой", WAIT_TIME * 60000, null, null);
         break;
       }
       case "StartFight":
@@ -450,7 +450,7 @@ public class TvT extends Event
         }
         
         // Send message.
-        broadcastScreenMessageWithEffect("The fight has began!", 5);
+        broadcastScreenMessageWithEffect("Битва началась!", 5);
         // Schedule finish.
         startQuestTimer("10", (FIGHT_TIME * 60000) - 10000, null, null);
         startQuestTimer("9", (FIGHT_TIME * 60000) - 9000, null, null);
@@ -462,7 +462,7 @@ public class TvT extends Event
         startQuestTimer("3", (FIGHT_TIME * 60000) - 3000, null, null);
         startQuestTimer("2", (FIGHT_TIME * 60000) - 2000, null, null);
         startQuestTimer("1", (FIGHT_TIME * 60000) - 1000, null, null);
-        startQuestTimer("EndFight", FIGHT_TIME * 60000, null, null);
+        startQuestTimer("Конец", FIGHT_TIME * 60000, null, null);
         break;
       }
       case "EndFight":
@@ -498,7 +498,7 @@ public class TvT extends Event
           Set<Player> TeamWinner = (BLUE_TEAM.isEmpty() && !RED_TEAM.isEmpty() ? RED_TEAM : BLUE_TEAM);
           
           final Skill skill = CommonSkill.FIREWORK.getSkill();
-          broadcastScreenMessageWithEffect("Team " + (TeamWinner == BLUE_TEAM ? "Blue" : "Red") + " won the event by forfeit!", 7);
+          broadcastScreenMessageWithEffect("Команда " + (TeamWinner == BLUE_TEAM ? "Blue" : "Red") + " выйграла по пенальти!", 7);
           for (Player participant : TeamWinner)
           {
             if ((participant != null) && (participant.getInstanceWorld() == PVP_WORLD))
@@ -513,7 +513,7 @@ public class TvT extends Event
         else if ((BLUE_SCORE > RED_SCORE) && (!TEAM_FORFEIT))
         {
           final Skill skill = CommonSkill.FIREWORK.getSkill();
-          broadcastScreenMessageWithEffect("Team Blue won the event!", 7);
+          broadcastScreenMessageWithEffect("Команда Blue победила!", 7);
           for (Player participant : BLUE_TEAM)
           {
             if ((participant != null) && (participant.getInstanceWorld() == PVP_WORLD))
@@ -528,7 +528,7 @@ public class TvT extends Event
         else if ((RED_SCORE > BLUE_SCORE) && (!TEAM_FORFEIT))
         {
           final Skill skill = CommonSkill.FIREWORK.getSkill();
-          broadcastScreenMessageWithEffect("Team Red won the event!", 7);
+          broadcastScreenMessageWithEffect("Коаманда Red победила!", 7);
           for (Player participant : RED_TEAM)
           {
             if ((participant != null) && (participant.getInstanceWorld() == PVP_WORLD))
@@ -542,7 +542,7 @@ public class TvT extends Event
         // Tie.
         else
         {
-          broadcastScreenMessageWithEffect("The event ended with a tie!", 7);
+          broadcastScreenMessageWithEffect("Ничья!", 7);
           for (Player participant : PLAYER_LIST)
           {
             participant.broadcastSocialAction(13);
@@ -657,7 +657,7 @@ public class TvT extends Event
     {
       if (event.contains("Warning"))
       {
-        sendScreenMessage(player, "You have been marked as inactive!", 10);
+        sendScreenMessage(player, "Вы помечены неактивным!", 10);
       }
       else
       {
@@ -669,7 +669,7 @@ public class TvT extends Event
         RED_TEAM.remove(player);
         player.setOnEvent(false);
         removeListeners(player);
-        player.sendMessage("You have been kicked for been inactive.");
+        player.sendMessage("Вы выгнаны за бездействие.");
         if (PVP_WORLD != null)
         {
           // Manage forfeit.
@@ -680,7 +680,7 @@ public class TvT extends Event
           }
           else
           {
-            broadcastScreenMessageWithEffect("Player " + player.getName() + " was kicked for been inactive!", 7);
+            broadcastScreenMessageWithEffect("Игрок " + player.getName() + " был выгнан за бездействие!", 7);
           }
         }
         
@@ -764,79 +764,79 @@ public class TvT extends Event
   {
     if (PLAYER_LIST.contains(player))
     {
-      player.sendMessage("You are already registered on this event.");
+      player.sendMessage("Вы уже зарегисрированы.");
       return false;
     }
     if (player.getLevel() < MINIMUM_PARTICIPANT_LEVEL)
     {
-      player.sendMessage("Your level is too low to participate.");
+      player.sendMessage("Слишком низкий уровень для регистрации.");
       return false;
     }
     if (player.getLevel() > MAXIMUM_PARTICIPANT_LEVEL)
     {
-      player.sendMessage("Your level is too high to participate.");
+      player.sendMessage("Слишком высокий уровень для регистрации.");
       return false;
     }
     if (player.isRegisteredOnEvent() || (player.getBlockCheckerArena() > -1))
     {
-      player.sendMessage("You are already registered on an event.");
+      player.sendMessage("Вы уже зарегистрированы.");
       return false;
     }
     if (PLAYER_LIST.size() >= MAXIMUM_PARTICIPANT_COUNT)
     {
-      player.sendMessage("There are too many players registered on the event.");
+      player.sendMessage("Слишком много регистраций.");
       return false;
     }
     if (player.isFlyingMounted())
     {
-      player.sendMessage("You cannot register on the event while flying.");
+      player.sendMessage("Регитсрации в полете запрещена.");
       return false;
     }
     if (player.isTransformed())
     {
-      player.sendMessage("You cannot register on the event while on a transformed state.");
+      player.sendMessage("Регистрации в состоянии трансформации запрещена.");
       return false;
     }
     if (!player.isInventoryUnder80(false))
     {
-      player.sendMessage("There are too many items in your inventory.");
-      player.sendMessage("Try removing some items.");
+      player.sendMessage("Слишком много предметов в инвентаре.");
+      player.sendMessage("Освободите инвентарь и попробуйте снова.");
       return false;
     }
     if ((player.getWeightPenalty() != 0))
     {
-      player.sendMessage("Your invetory weight has exceeded the normal limit.");
-      player.sendMessage("Try removing some items.");
+      player.sendMessage("Превыше лимит веса.");
+      player.sendMessage("Освободите инвентарь и попробуйте снова.");
       return false;
     }
     if (player.isCursedWeaponEquipped() || (player.getReputation() < 0))
     {
-      player.sendMessage("People with bad reputation can't register.");
+      player.sendMessage("Регистрация с отрицательнйо репутацией запрещена.");
       return false;
     }
     if (player.isInDuel())
     {
-      player.sendMessage("You cannot register while on a duel.");
+      player.sendMessage("Регистрация в состоянии дуэли запрещена.");
       return false;
     }
     if (player.isInOlympiadMode() || OlympiadManager.getInstance().isRegistered(player))
     {
-      player.sendMessage("You cannot participate while registered on the Olympiad.");
+      player.sendMessage("Вы уже зарегистрированны на олипиаде");
       return false;
     }
     if (player.isInInstance())
     {
-      player.sendMessage("You cannot register while in an instance.");
+      player.sendMessage("Вы находтесь в инстанс зоне. Регистрация не возможна.");
       return false;
     }
     if (player.isInSiege() || player.isInsideZone(ZoneId.SIEGE))
     {
-      player.sendMessage("You cannot register while on a siege.");
+      player.sendMessage("Регистарция во время осады запрещена.");
       return false;
     }
     if (player.isFishing())
     {
-      player.sendMessage("You cannot register while fishing.");
+      player.sendMessage("Регистрация во время рыбалки запрещена.");
       return false;
     }
     return true;
@@ -996,8 +996,8 @@ public class TvT extends Event
     MANAGER_NPC_INSTANCE = addSpawn(MANAGER, MANAGER_SPAWN_LOC, false, REGISTRATION_TIME * 60000);
     startQuestTimer("TeleportToArena", REGISTRATION_TIME * 60000, null, null);
     // Send message to players.
-    Broadcast.toAllOnlinePlayers("TvT Event: Registration opened for " + REGISTRATION_TIME + " minutes.");
-    Broadcast.toAllOnlinePlayers("TvT Event: You can register at Giran TvT Event Manager.");
+    Broadcast.toAllOnlinePlayers("TvT: Регистратор появился в Гиране.");
+    Broadcast.toAllOnlinePlayers("TvT: У вас есть " + REGISTRATION_TIME + " минут чтобы зарегистрироваться.");
     return true;
   }
   
@@ -1048,7 +1048,7 @@ public class TvT extends Event
       PVP_WORLD = null;
     }
     // Send message to players.
-    Broadcast.toAllOnlinePlayers("TvT Event: Event was canceled.");
+    Broadcast.toAllOnlinePlayers("TvT: Ивент отменен.");
     
     // Set state PARTICIPATING
     setState(EventState.INACTIVE);
